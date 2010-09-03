@@ -20,8 +20,7 @@ use these JSON config files (as long as they implement YAML 1.2 or above).
 2. Enable the module in your `bootstrap.php` file
 3. Attach the JSON reader to a directory of your choosing
 
-<pre></code>
-/**
+<pre></code>/**
  * This attaches the json reader to a config.json directory
  * (ex: application/config.json/hello.json)
  */
