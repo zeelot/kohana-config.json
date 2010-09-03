@@ -20,11 +20,13 @@ use these JSON config files (as long as they implement YAML 1.2 or above).
 2. Enable the module in your `bootstrap.php` file
 3. Attach the JSON reader to a directory of your choosing
 
-	/**
-	 * This attaches the json reader to a config.json directory
-	 * (ex: application/config.json/hello.json)
-	 */
-	Kohana::$config->attach(new Config_JSON('config.json'));
+<pre></code>
+/**
+ * This attaches the json reader to a config.json directory
+ * (ex: application/config.json/hello.json)
+ */
+Kohana::$config->attach(new Config_JSON('config.json'));
+</code></pre>
 
 ## Example JSON File
 
